@@ -1,16 +1,6 @@
-prestashop-productinfo
-======================
-
-A PrestaShop module for adding extra product information
-
-# Disclaimer
-This is an old PrestaShop module I did a couple of years ago. Maybe someone could find it useful. If I remember correctly it should be working for PrestaShop version 1.4.x through 1.5.3.x (with some bugs when using it for version >= 1.5.0).
-
-Feel free to do anything you want with this. MIT license.
-
-# Original module README below
-
-### Installing the module
+##############################
+# Installing the module      #
+##############################
 1. Use the "Add a module from my computer" button on the modules page or copy the productinfo folder to your sites modules directory
 2. Go to the Modules tab in your Back Office and click Install on the module (found under Administration)
 3. Done!
@@ -18,11 +8,15 @@ Feel free to do anything you want with this. MIT license.
 NOTE: The module will override the Product class. If you have overridden the Product class before you will have
       to merge the changes manually. When installing this module previous overrides of the Product class will
       be renamed to "Product.php.bak".
-
-### Updating from PS 1.4 to 1.5
+      
+##############################
+# Updating from PS 1.4 to 1.5#
+##############################
 After you have upgraded your shop to 1.5.x, upload the new module version using "Add a module from my computer", then press "Update".
 
-### How to use in Front Office
+##############################
+# How to use in Front Office #
+##############################
 You can access all the extra information just as you access ordinary product information.
 
 The extra product information is stored in an array called "extra" in the Product class. So
